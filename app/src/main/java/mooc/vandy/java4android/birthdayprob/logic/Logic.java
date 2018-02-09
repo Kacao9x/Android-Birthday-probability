@@ -76,12 +76,14 @@ public class Logic
      */
     public double calculate(int size, int count) {
         // TODO -- add your code here
-//        int[] group;
-//        Random rand = new Random();
-//        for (int i=0; i<size; i++) {
-//            group[i] = rand.nextInt(365);
-//            mOut.print(int(group[i]));
-//        }
+        /* generate an array of 50 random integer*/
+        int[] group = new int[50];
+        Random rand = new Random();
+        for (int i=0; i<size; i++) {
+            group[i] = rand.nextInt(365);
+        }
+
+
         return -1;
 
     }
