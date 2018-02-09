@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/media/kacao/Du-Lieu/Android-Project/Android-Java/Assignment2/D:\\Android-Project\\Android-Java\\Assignment2\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi\\ic_launcher.png",
+        "source": "/media/kacao/Du-Lieu/Android-Project/Android-Java/Assignment2/D:\\Android-Project\\Android-Java\\Assignment2\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/media/kacao/Du-Lieu/Android-Project/Android-Java/Assignment2/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/media/kacao/Du-Lieu/Android-Project/Android-Java/Assignment2/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]
