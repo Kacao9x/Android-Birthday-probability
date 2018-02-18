@@ -77,15 +77,41 @@ public class Logic
     public double calculate(int size, int count) {
         // TODO -- add your code here
         /* generate an array of 50 random integer*/
-        int[] group = new int[50];
+        //int[] group = new int[size];
+        int a = 0, counting = 0;
         Random rand = new Random();
-        for (int i=0; i<size; i++) {
-            group[i] = rand.nextInt(365);
+        while (a < count) {
+            a++;
+            int[] group = new int[size];
+            for (int i = 0; i < size; i++) {
+                group[i] = rand.nextInt(365);
+                //mOut.println("For a group of " + group[i]);
+            }
+
+            if( search(group, size) ) {
+                counting++;
+                mOut.println("The amount of same b-day: " + counting);
+            }
         }
 
-
-        return -1;
+        /* calculate the probability */
+        return 100*counting/count;
 
     }
     // TODO - add your code here
+
+    private boolean search(int[] group, int size) {
+//        for (int x =0; x<size; x++ ) {
+//            mOut.print(group[x] + " ");
+//        }
+        for (int i = 0; i < size; i++) {
+            for (int j = i + 1; j < size; j++) {
+                if (group[i] == group[j]) {
+                    return true;
+                } else {}
+
+            }
+        }
+        return false;
+    }
 }
