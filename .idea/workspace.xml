@@ -21,7 +21,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1/debug_de567dc7a38d526b24bd0c7ebe89d56fc81a2861/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1/debug_de567dc7a38d526b24bd0c7ebe89d56fc81a2861/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/mooc/vandy/java4android/birthdayprob/logic/Logic.java" afterPath="$PROJECT_DIR$/app/src/main/java/mooc/vandy/java4android/birthdayprob/logic/Logic.java" />
     </list>
@@ -58,12 +57,13 @@
       <file leaf-file-name="Logic.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/mooc/vandy/java4android/birthdayprob/logic/Logic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="103" column="10" selection-start-line="103" selection-start-column="10" selection-end-line="105" selection-end-column="11" />
+            <state relative-caret-position="486">
+              <caret line="126" column="80" selection-start-line="126" selection-start-column="80" selection-end-line="126" selection-end-column="80" />
               <folding>
                 <element signature="docComment;class#Logic#0" expanded="false" />
                 <element signature="docComment;field#TAG#0;class#Logic#0" expanded="false" />
                 <element signature="docComment;method#process#0;class#Logic#0" expanded="false" />
+                <element signature="e#3257#3372#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -1642,7 +1642,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="43" />
+    <option name="x" value="-1557" />
     <option name="y" value="24" />
     <option name="width" value="1557" />
     <option name="height" value="876" />
@@ -2083,7 +2083,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="43" y="24" width="1557" height="876" extended-state="6" />
+    <frame x="-1557" y="24" width="1557" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13788301" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -2144,6 +2144,7 @@
             <element signature="docComment;class#Logic#0" expanded="false" />
             <element signature="docComment;field#TAG#0;class#Logic#0" expanded="false" />
             <element signature="docComment;method#process#0;class#Logic#0" expanded="false" />
+            <element signature="e#3257#3372#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2183,6 +2184,7 @@
             <element signature="docComment;class#Logic#0" expanded="false" />
             <element signature="docComment;field#TAG#0;class#Logic#0" expanded="false" />
             <element signature="docComment;method#process#0;class#Logic#0" expanded="false" />
+            <element signature="e#3257#3372#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2203,6 +2205,7 @@
             <element signature="docComment;class#Logic#0" expanded="false" />
             <element signature="docComment;field#TAG#0;class#Logic#0" expanded="false" />
             <element signature="docComment;method#process#0;class#Logic#0" expanded="false" />
+            <element signature="e#3257#3372#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2234,6 +2237,7 @@
             <element signature="docComment;class#Logic#0" expanded="false" />
             <element signature="docComment;field#TAG#0;class#Logic#0" expanded="false" />
             <element signature="docComment;method#process#0;class#Logic#0" expanded="false" />
+            <element signature="e#3257#3372#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2272,6 +2276,7 @@
             <element signature="docComment;class#Logic#0" expanded="false" />
             <element signature="docComment;field#TAG#0;class#Logic#0" expanded="false" />
             <element signature="docComment;method#process#0;class#Logic#0" expanded="false" />
+            <element signature="e#3257#3372#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2310,6 +2315,7 @@
             <element signature="docComment;class#Logic#0" expanded="false" />
             <element signature="docComment;field#TAG#0;class#Logic#0" expanded="false" />
             <element signature="docComment;method#process#0;class#Logic#0" expanded="false" />
+            <element signature="e#3257#3372#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2368,12 +2374,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/mooc/vandy/java4android/birthdayprob/logic/Logic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="103" column="10" selection-start-line="103" selection-start-column="10" selection-end-line="105" selection-end-column="11" />
+        <state relative-caret-position="486">
+          <caret line="126" column="80" selection-start-line="126" selection-start-column="80" selection-end-line="126" selection-end-column="80" />
           <folding>
             <element signature="docComment;class#Logic#0" expanded="false" />
             <element signature="docComment;field#TAG#0;class#Logic#0" expanded="false" />
             <element signature="docComment;method#process#0;class#Logic#0" expanded="false" />
+            <element signature="e#3257#3372#0" expanded="false" />
           </folding>
         </state>
       </provider>

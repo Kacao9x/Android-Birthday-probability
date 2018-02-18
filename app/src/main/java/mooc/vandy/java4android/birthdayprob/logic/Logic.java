@@ -1,6 +1,8 @@
 package mooc.vandy.java4android.birthdayprob.logic;
 
+import java.util.HashSet;
 import java.util.Random;
+import java.util.Set;
 
 import mooc.vandy.java4android.birthdayprob.ui.OutputInterface;
 
@@ -88,9 +90,9 @@ public class Logic
                 //mOut.println("For a group of " + group[i]);
             }
 
-            if( search(group, size) ) {
+            if( search(group) ) {
                 counting++;
-                mOut.println("The amount of same b-day: " + counting);
+                //mOut.println("The amount of same b-day: " + counting);
             }
         }
 
@@ -100,18 +102,39 @@ public class Logic
     }
     // TODO - add your code here
 
-    private boolean search(int[] group, int size) {
-//        for (int x =0; x<size; x++ ) {
-//            mOut.print(group[x] + " ");
-//        }
-        for (int i = 0; i < size; i++) {
-            for (int j = i + 1; j < size; j++) {
-                if (group[i] == group[j]) {
-                    return true;
-                } else {}
 
-            }
+    /**
+     * use n^2 algo to search for duplicate items
+     * @param group
+     * @param size
+     * @return
+     */
+//    private boolean search(int[] group, int size) {
+//        for (int i = 0; i < size; i++) {
+//            for (int j = i + 1; j < size; j++) {
+//                if (group[i] == group[j]) {
+//                    return true;
+//                } else {}
+//
+//            }
+//        }
+//        return false;
+//    }
+
+    /**
+     * use O(n) algo Hash table for searching for duplicate item
+     * Best algo is using bitmap
+     * https://stackoverflow.com/questions/3951547/java-array-finding-duplicates
+     * @param group
+     * @return
+     */
+    private boolean search(int[] group) {
+        Set<Integer> lump = new HashSet<>();
+        for (int i : group) {
+            if ( lump.contains(i))
+                return true;        //true if duplicate elements
+            lump.add(i);            //store the duplicate element into hashmap
         }
-        return false;
+        return false;               //false if no duplicate elements
     }
 }
